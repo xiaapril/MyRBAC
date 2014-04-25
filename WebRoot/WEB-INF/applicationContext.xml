@@ -44,5 +44,7 @@
 		<property name="loginService" ref="loginService"></property>
 </bean>
 
+<bean id="logoutAction" class="com.rbac.action.system.LogoutAction" scope="prototype">
+</bean>
 
 </beans>
